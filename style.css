@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 99vw;
+    height: 100vh;
+    background-color: azure;
+    overflow-y: scroll;
+}
+
+.nav{
+    width: 99%;
+    height: 10%;
+    background-color: rgb(222, 160, 28);
+     position: fixed; 
+}
+
+
+.coffee{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    margin-top: 3.7em;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/010/450/small/the-cup-of-latte-coffee-with-heart-shaped-latte-art-and-ai-generated-free-photo.jpg);
+}
+
+
+.aboutsec{
+background-color: #f4f2cc;
+
+
+}
+.label{
+    padding: 3em 0  0 2em;
+    margin-left: 13em;
+    color: white;
+    font-size: 3em;
+}
+
+/* about */
+
+.aboutpara{
+
+margin-top: 2em;
+margin-left: 3em;
+
+}
+
+#about{
+font-size: 3em;
+margin-left: 2.5em;
+/* margin-top: 2em; */
+padding-top: 2em;
+color: rgb(6, 6, 6);
+}
+
+.about{
+
+font-size: 1.3em;
+margin-left: 23em;
+color: white;
+text-decoration: none;
+
+
+
+}
+
+
+.aboutimg1{
+height: 220px;
+width: 180px;
+border-radius: 50px;
+box-shadow: 15px 15px 15px 5px;
+margin-top: 2em;
+margin-left: 3em;
+margin-bottom: 5em;
+}
+
+
+.aboutimg1:hover{
+border: 2px solid rgb(223, 214, 206);
+}
+
+/* menu */
+
+.menusec
+{
+
+background-color: rgb(17, 17, 63);
+}
+
+#menu{
+margin-left: 2em;
+padding-top: 2em;
+color: white
+
+
+}
+
+.menu{
+font-size: 1.3em;
+margin-left: 4em;
+color: white;
+text-decoration: none;
+
+}
+
+.cup{
+
+margin-left: 2em;
+color: rgb(35, 3, 3);
+display: inline-block;
+margin-top: 0.7em;
+
+
+}
+
+.main{
+    display: flex;
+}
+
+.menupara{
+margin: 2em 0 2em 2em;
+color: white;
+
+}
+
+.menuspan{
+    color: white;
+    padding-left: 7em;
+    
+
+} 
+
+
+
+
+
+
+
+.menuimg{
+margin-top: 2em;
+   height: 350px;
+    width: 500px;
+    margin-left: 4em;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+@media only screen and  (max-width:1050px) and (min-width:300px){
+
+.menuimg{
+
+width: 70%;
+height: 75%;
+
+}
+span{
+
+margin-right: 3em;
+
+}
+
+}
+
+
+.menuimg:hover{
+    border: 3px solid wheat;
+}
+#location{
+background-color: #f4f2cc;
+
+}
+
+.loco{
+
+padding: 2em;
+font-size: 2em;
+
+}
+
+.luca{
+width: 900px;
+height: 500px;
+border-radius: 15px;
+/* padding: 0 0 2em 10em ; */
+border: 2px solid brown;
+margin: 0 0 2em 10em;
+
+
+}
+
+
+@media only screen and (max-width:950px) {
+.luca{
+width: 350px;
+height: 300px;
+align-items: center;
+margin-left: 2em;
+
+}
+}
+
+
+
+@media only screen and (max-width:420px) {
+    .luca{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    
+    
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    .main{
+        display: block;
+    }
+    .menuspan{
+        margin-left: -4em;
+    }
+
+.coffee{
+
+height: 400px;
+width: 750px;
+
+}
+.label{
+padding-right: 19em;
+display: none;
+} 
+
+
+
+}
+
+@media only screen and (max-width:990px){
+    
+.label{
+    padding-right: 19em;
+    display: none;
+    } 
+    
+}
+@media only screen and (max-width:360px) {
+
+.coffee{
+    height: 240px;
+    width: 500px;
+}
+
+}
+@media only screen and (max-width:360px){
+
+.nav{
+margin-top: 2em;
+
+}
+
+}
